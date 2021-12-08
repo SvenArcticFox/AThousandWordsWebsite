@@ -11,11 +11,32 @@ body {
 }
 
 /* Header Styles */
+@media only screen and (max-width: 999px) {
+    header ul li {
+        display: list-item;
+        padding: 0.5em;
+    }
+
+    header {
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 1000px) { 
+    header ul li {
+        display: inline;
+        padding: 1em;
+    }
+
+    header {
+        height: 3.5em;
+        align-content: center;
+    }
+}
+
 header {
-    display: block;
-    background-color: black;
-    height: 3.5em;
     align-content: center;
+    background-color: black;
     margin-top: -1.5em;
     margin-left: -1em;
     margin-right: -1em;
@@ -30,8 +51,6 @@ header ul {
 
 header ul li {
     color: white;
-    padding: 1em;
-    display: inline;
 }
 
 li#title {
@@ -57,4 +76,5 @@ header ul a:visited {
 /* Body Styles */
 h1#welcomeMessage {
     text-align: center;
+    font-size: 3em;
 }
