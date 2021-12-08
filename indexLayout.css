@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+/* Base Body and HTML Styles */
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: whitesmoke
+}
+
+/* Header Styles */
+header {
+    display: block;
+    background-color: black;
+    height: 3.5em;
+    align-content: center;
+    margin-top: -1.5em;
+    margin-left: -1em;
+    margin-right: -1em;
+}
+
+header ul {
+   list-style: none;
+   font-size: x-large;
+   text-align: center;
+   padding-top: 0.5em;
+}
+
+header ul li {
+    color: white;
+    padding: 1em;
+    display: inline;
+}
+
+li#title {
+    font-weight: bold;
+}
+
+header ul a{
+    text-decoration: none;
+    color: white;
+}
+
+header ul a:hover {
+    text-decoration: underline;
+}
+
+header ul a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+/* Index HTML Styles */
+
+/* Body Styles */
+h1#welcomeMessage {
+    text-align: center;
+}
