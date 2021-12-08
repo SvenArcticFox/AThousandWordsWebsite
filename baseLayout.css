@@ -70,11 +70,3 @@ header ul a:visited {
     text-decoration: none;
     color: white;
 }
-
-/* Index HTML Styles */
-
-/* Body Styles */
-h1#welcomeMessage {
-    text-align: center;
-    font-size: 3em;
-}
