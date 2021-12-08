@@ -30,12 +30,10 @@ body {
 
     header {
         height: 3.5em;
-        align-content: center;
     }
 }
 
 header {
-    align-content: center;
     background-color: black;
     margin-top: -1.5em;
     margin-left: -1em;
@@ -53,7 +51,7 @@ header ul li {
     color: white;
 }
 
-li#title {
+li.title {
     font-weight: bold;
 }
 
@@ -67,6 +65,50 @@ header ul a:hover {
 }
 
 header ul a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+/* Footer Styles */
+
+footer {
+    background-color: black;
+    color: white;
+    margin-bottom: -1.5em;
+    margin-left: -1em;
+    margin-right: -0.5em;
+}
+
+footer p {
+    text-align: left;
+    display: inline-block;
+    margin: 1em 1em 1em 1em;
+    padding: 1em 1em 1em 1em;
+}
+
+footer ul {
+    margin: 0em;
+    padding: 1em;
+    list-style: none;
+    text-align: right;
+    display: block;
+    float: right;
+}
+
+footer ul li {
+    padding: 1em 1em 1em 0em;
+}
+
+footer ul a {
+    text-decoration: none;
+    color: white;
+}
+
+footer ul a:hover {
+    text-decoration: underline;
+}
+
+footer ul a:visited {
     text-decoration: none;
     color: white;
 }
