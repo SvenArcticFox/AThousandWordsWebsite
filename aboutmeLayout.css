@@ -6,3 +6,24 @@ Developed by Trevor Radez */
 /* About Me Styles */
 
 /* Body Styles */
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+p {
+    text-align: center;
+    margin: 1em 5em;
+}
+
+img {
+    width: 20em;
+    display: block;
+    margin: auto;
+    border-style: solid;
+}
