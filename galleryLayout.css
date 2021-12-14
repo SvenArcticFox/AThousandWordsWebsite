@@ -6,3 +6,11 @@ Developed by Trevor Radez */
 /* Gallery Stylesheet */
 
 /* Body Styles */
+h1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+.gridContainer {
+    grid-template-columns: auto auto;
+}
