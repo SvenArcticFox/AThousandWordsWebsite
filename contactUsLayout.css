@@ -1,0 +1,30 @@
+@charset "utf-8";
+@import url(baseLayout.css);
+/* A Thousand Words Contact US stylesheet
+Developed by Trevor Radez */
+
+/* Contact Us Stylesheet */
+
+/* Body Styles */
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+p {
+    text-align: center;
+    margin: 1em 4em;
+}
+
+p a {
+    color: blue;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+p a:visited {
+    text-decoration: none;
+}
