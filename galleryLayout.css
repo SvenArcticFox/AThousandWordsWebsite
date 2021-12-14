@@ -12,12 +12,17 @@ h1 {
 }
 
 .gridContainer {
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% 50%;
     display: grid;
 }
 
-div img {
-    width: 85%;
+div.image img {
+    width: 100%;
     margin: 1em auto;
     display: block;
+}
+
+div.description p {
+    margin: 1em 2em;
+    text-indent: 2em;
 }
