@@ -28,3 +28,11 @@ p a:hover {
 p a:visited {
     text-decoration: none;
 }
+
+iframe {
+    display: block;
+    margin: 1em auto;
+    width: 60%;
+    height: 30em;
+    border-style: none;
+}
