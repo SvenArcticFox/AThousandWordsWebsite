@@ -114,3 +114,18 @@ footer ul a:visited {
     text-decoration: none;
     color: white;
 }
+
+
+/* Footer styles for smaller screens */
+@media only screen and (max-width: 660px){
+
+    footer ul {
+        display: list-item;
+        float: none;
+        text-align: center;
+    }
+    
+    footer ul li {
+        padding: 0em 0em 1em;
+    }
+}
