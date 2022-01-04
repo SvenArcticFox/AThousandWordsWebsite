@@ -26,3 +26,24 @@ div.description p {
     margin: 1em 2em;
     text-indent: 2em;
 }
+
+/* Gallery layout for smaller screens */
+@media only screen and (max-width: 600px) {
+    .gridContainer {
+        display: inline;
+    }
+
+    div.description {
+        padding-bottom: 4em;
+    }
+
+    div.description:last-of-type {
+        padding-bottom: 1em;
+    }
+
+    div.image img {
+        width: 92%;
+    }
+
+
+}
